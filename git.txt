@@ -29,3 +29,19 @@ git config --global user.name "Noman Bilal"
 6. git push origin master 
 
  
+ 
+ Adding Branches
+ // by default *master branch will show
+ 1. git branch
+ 
+ //to create new branch
+ 2.git branch new_feature
+
+// To move any other branch and * will show current branch
+3. git checkout new_feature
+
+//To merge we will do in master branch
+
+4. git merge new_feature
+
+
