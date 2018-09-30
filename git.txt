@@ -3,3 +3,29 @@
 git config --global user.email "noman.bilal92@gmail.com" 
 git config --global user.name "Noman Bilal"
 
+
+// For making hidden .git folder
+1. git init 
+
+
+
+2. git add index.html //for adding single file 
+2.git add -A  //For adding all files
+
+
+
+
+3.git status   //To check status which files are added or not
+
+4.git commit -m "Added index.html and custom.css" // For ScreenShot
+
+
+//for adding repository name which we get after creating repository
+//is cmd ko run krny pr sirf link ho remote ka github k sath
+5.git remote add origin repoName  >> git remote add origin https://github.com/Noman-Bilal/learngit.git
+
+// To add files on github 
+//is cmd k bd github ka username and password dena h
+6. git push origin master 
+
+ 
